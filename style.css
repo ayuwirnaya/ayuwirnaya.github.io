@@ -1,0 +1,43 @@
+
+   * {margin:0px; padding:0px;}
+ body {background-color: #ccc; /*background-image:url(../images/bike.jpg); background-size: cover; background-repeat: no-repeat;*/  background: url(../images/subtle.png)}
+   #wrapper {width: 1000px; height: 600px;  margin: auto;}
+
+   #header {height: 100px; width: 100%;}
+     #header h1 {margin-top: 30px; font-size: 56px; color: #333; font-family: 'bebas'; letter-spacing: 1px;}
+
+     #menu {height: 50px; background-color: #ff8939; }
+      #menu ul li { list-style: none; float: left; width: 250px; height: 50px;}
+      #menu ul li a { display:block; font-size: 18px; text-align: center; color: #000; text-decoration: none; line-height: 50px; font-family: 'haha'}
+
+    #content {height: 600px; background-color:#fff; overflow: hidden;}
+      #content_left {height: 540px; width: 640px; float: left; border-right: 1px solid #ccc; padding: 30px;}
+      #content_left h1 {margin-top:10px; margin: 20px;}
+      #content_left img {float: left; margin-left: 10px; margin-right: 20px;}
+      #content_left p {text-align: justify; line-height: 1.5;}
+
+
+      #content_right {height: 540px; width: 230px; float: right; text-align: center; padding: 30px;}
+        #content_right h1 {margin-bottom: 20px; text-align: center;}
+        #prof_pic {height: 150px;}
+        #author_name {line-height: 30px;}
+        #author_date {color: #333; font-weight: lighter; line-height: 30px;}
+        #author_desc {line-height: 22px;}
+
+#footer {height: 35px; background-color: #ff8939; border-bottom: 2px solid #ff4d2f;}
+
+#copy_right {float: right; color: #fff; width: 400px; line-height: 35px; text-align: right; margin-right: 20px;}
+
+@font-face {
+  font-family: 'Krinkes';
+  src:url(../fonts/KrinkesRegularPERSONAL.ttf);
+}
+@font-face {
+  font-family: 'bebas';
+  src:url(../fonts/orangejuice2.0.ttf);
+}
+@font-face {
+  font-family: 'haha';
+  src: url(../fonts/GROBOLD.ttf);
+
+}
